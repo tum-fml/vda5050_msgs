@@ -1,5 +1,5 @@
 # CONTENTS
-string actionID	                # action_ID
+string actionId	                # action_ID
 
 string actionType               # actionType of the action.
                                 # Optional: Only for informational or visualization purposes. Order knows the type.
