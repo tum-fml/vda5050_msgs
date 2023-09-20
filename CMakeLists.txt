@@ -26,7 +26,7 @@ add_message_files(
     Error.msg
     Errors.msg
     ErrorReference.msg
-    InstantActions.msg
+    InstantAction.msg
     Info.msg
     InfoReference.msg
     Information.msg
