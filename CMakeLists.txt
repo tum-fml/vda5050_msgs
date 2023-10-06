@@ -33,6 +33,7 @@ add_message_files(
     Load.msg
     LoadDimensions.msg
     Loads.msg
+    MapUpdate.msg
     Node.msg
     NodePosition.msg
     NodeState.msg
