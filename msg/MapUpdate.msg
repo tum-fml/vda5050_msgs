@@ -28,3 +28,5 @@ string mapName              # Name of the map.
 string mapDescription       # Description of the map.
 
 float64 mapReferenceHeight  # Height in which this map was captured in meters.
+
+MapMetaData mapMetaData     # Meta Data. E.g Map resolution, position of the origin, etc.

@@ -1,0 +1,1 @@
+InteractionZoneState[] interactionZones     # List of interaction zones the vehicle is reporting.

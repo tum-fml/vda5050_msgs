@@ -4,6 +4,7 @@ project(vda5050_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   message_runtime
+  geometry_msgs
   std_msgs
 )
 
@@ -30,9 +31,12 @@ add_message_files(
     Info.msg
     InfoReference.msg
     Information.msg
+    InteractionZoneState.msg
+    InteractionZoneStates.msg
     Load.msg
     LoadDimensions.msg
     Loads.msg
+    MapMetaData.msg
     MapUpdate.msg
     Node.msg
     NodePosition.msg
@@ -51,6 +55,7 @@ add_message_files(
    )
 generate_messages(
   DEPENDENCIES
+  geometry_msgs
   std_msgs
 )
 

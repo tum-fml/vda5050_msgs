@@ -76,6 +76,8 @@ vda5050_msgs/Info[] information        # Array of info-objects. An empty array i
 
 vda5050_msgs/SafetyState safetyState    # Contains all safety-related information.
 
+InteractionZoneState[] interactionZones     # List of interaction zones the vehicle is reporting.
+
 # Enums for operatingMode
 string AUTOMATIC=AUTOMATIC
 string SEMIAUTOMATIC=SEMIAUTOMATIC
