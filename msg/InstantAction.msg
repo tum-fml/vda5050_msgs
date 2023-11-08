@@ -9,4 +9,4 @@ string manufacturer     # Manufacturer of the AGV
 
 string serialNumber     # Serial Number of the AGV
 
-Action[] instantActions # List of actions to execute.
+Action[] actions        # List of actions to execute.
