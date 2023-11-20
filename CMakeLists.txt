@@ -17,6 +17,8 @@ add_message_files(
     ActionParameter.msg
     ActionState.msg
     ActionStates.msg
+    AgvAction.msg
+    AgvGeometry.msg
     BatteryState.msg
     BoundingBoxReference.msg
     Connection.msg
@@ -27,6 +29,7 @@ add_message_files(
     Error.msg
     Errors.msg
     ErrorReference.msg
+    Factsheet.msg
     InstantAction.msg
     Info.msg
     InfoReference.msg
@@ -36,18 +39,30 @@ add_message_files(
     Load.msg
     LoadDimensions.msg
     Loads.msg
+    LoadSet.msg
+    LoadSpecification.msg
     MapMetaData.msg
     MapUpdate.msg
+    MaxArrayLens.msg
+    MaxStringLens.msg
     Node.msg
     NodePosition.msg
     NodeState.msg
     NodeStates.msg
+    OptionalParameter.msg
     Order.msg
+    PhysicalParameters.msg
+    Position.msg
+    ProtocolFeatures.msg
+    ProtocolLimits.msg
     SafetyState.msg
     State.msg
+    Timing.msg
     Trajectory.msg
+    TypeSpecification.msg
     Velocity.msg
     Visualization.msg
+    WheelDefinition.msg
     Zone.msg
     ZoneParameter.msg
     ZonePolygonPoint.msg
