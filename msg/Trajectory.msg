@@ -1,6 +1,6 @@
 # Points defining a spline. Theta allows holonomic vehicles to rotate along the trajecotry.
 
-float64 degree                            # Range: [1 … infinity) Defines the number of control points that influence 
+uint32 degree                                # Range: [1 … infinity) Defines the number of control points that influence 
                                           # any given point on the curve. Increasing the degree increases continuity. 
                                           # If not defined, the default value is 1.
 
